@@ -4,57 +4,57 @@
 
 This project aims to build a machine learning model to predict loan approvals based on applicant data. The model evaluates various factors such as income, credit history, and loan amount to determine approval chances.
 
-Dataset
+## Dataset
 
 The dataset contains applicant details, including:
 
-Gender
+* Gender
 
-Marital Status
+* Marital Status
 
-Dependents
+* Dependents
 
-Education Level
+* Education Level
 
-Self-Employment Status
+* Self-Employment Status
 
-Applicant and Co-applicant Income
+* Applicant and Co-applicant Income
 
-Loan Amount & Term
+* Loan Amount & Term
 
-Credit History
+* Credit History
 
-Property Area
+* Property Area
 
-Loan Approval Status (Target variable)
+* Loan Approval Status (Target variable)
 
-Tools & Technologies Used
+## Tools & Technologies Used
 
-Python
+* Python
 
-Pandas & NumPy
+* Pandas & NumPy
 
-Scikit-learn
+* Scikit-learn
 
-Matplotlib & Seaborn (for data visualization)
+* Matplotlib & Seaborn (for data visualization)
 
-Jupyter Notebook
+* Jupyter Notebook
 
-Project Workflow
+## Project Workflow
 
-Data Preprocessing: Handling missing values, encoding categorical variables, and scaling numerical features.
+1 Data Preprocessing: Handling missing values, encoding categorical variables, and scaling numerical features.
 
-Exploratory Data Analysis (EDA): Identifying key insights and correlations.
+2 Exploratory Data Analysis (EDA): Identifying key insights and correlations.
 
-Feature Engineering: Transforming data to enhance model performance.
+3 Feature Engineering: Transforming data to enhance model performance.
 
-Model Selection & Training: Comparing machine learning models like Logistic Regression, Decision Trees, and Random Forest.
+4 Model Selection & Training: Comparing machine learning models like Logistic Regression, Decision Trees, and Random Forest.
 
-Model Evaluation: Using accuracy, precision, recall, and ROC-AUC score.
+5 Model Evaluation: Using accuracy, precision, recall, and ROC-AUC score.
 
-Predictions & Insights: Interpreting results for better loan approval strategies.
+6 Predictions & Insights: Interpreting results for better loan approval strategies.
 
-How to Run
+## How to Run
 
 Install dependencies using:
 
@@ -62,6 +62,6 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 Open and run Loan_Prediction.ipynb in Jupyter Notebook.
 
-Results & Conclusion
+## Results & Conclusion
 
 The project identifies key factors influencing loan approvals and builds an accurate predictive model. Further improvements can be made by using deep learning models or advanced feature engineering techniques.
